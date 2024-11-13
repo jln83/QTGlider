@@ -62,6 +62,20 @@ Joystick "KY-023"
 Button  
 Screen - "ST7796S"  
 
-### Session of October 19, 2024
+### Session of Friday, October 19, 2024
 Due to the power outage, the Arduino work was more complicated. Without access to the Internet, research work is complicated...
 Instead, we planned the progress of the project during the holidays.
+
+### First week of the holidays  
+Our purpose for meeting was to plan on what we had to do during the holidays each on our own and talk about the project in general so that we could both start with the same vision of things.
+
+### Second week of the holidays
+We met again, this time with an alpha version of the project so we could test it and fix problems.
+
+### November 10, 2024
+The reason we met was to bring together the final elements of the project and finalize it.
+
+## What we could say about the organization of our project
+
+Our organization for this project is good, we were both aligned on the same vision of things for the QTGlider. By seeing each other at least once a week to be able to discuss the project, this allowed us to avoid trivial errors.   
+However, we often changed "objectives" in the project constrained by the technical limitations of the Arduino. We could therefore have questioned our ambition and verified the possibility of being able to achieve the entirety of our objectives.
