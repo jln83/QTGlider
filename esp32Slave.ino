@@ -6,7 +6,7 @@
 
 
 
-// Pour l'envoie des réseaux fictifs (spoofing):
+// Pour l'envoie des réseaux fictifs (beacon spam):
 const char ssids[] PROGMEM = { // Noms des réseaux (ssids) fictifs pour le rickroll
   "Never\n"
   "Gonna\n"
@@ -67,17 +67,17 @@ void loop() {
         delay(2500);
         break;
         
-      case '2': // Démarre le spoofing
+      case '2': // Démarre le beacon spam
         stopPortal();
         startSpoof();
         break;
         
-      case '3': // Démarre le portail
+      case '3': // Démarre le portail captif
         if (spoofActive) stopSpoof();
         setupPortal();
         break;
         
-      case '4': // Arrête le portail
+      case '4': // Arrête le portail captif
         stopPortal();
         break;
         
@@ -121,7 +121,7 @@ void scanWifi(){ // scan wifi
 
 
 
-// Change de cannal wifi pour la prochaine traam du spoofing
+// Change de cannal wifi pour la prochaine traam du beacon Spam
 void nextChannel() {
   static uint8_t channelIndex = 0; // Index du canal actuel
   esp_wifi_set_channel(channels[channelIndex++ % 2], WIFI_SECOND_CHAN_NONE);
